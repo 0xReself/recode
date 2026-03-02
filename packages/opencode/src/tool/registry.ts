@@ -8,6 +8,8 @@ import { BatchTool } from "./batch"
 import { ReadTool } from "./read"
 import { TaskTool } from "./task"
 import { TodoWriteTool, TodoReadTool } from "./todo"
+import { MemoryTool } from "./memory"
+import { ScratchpadTool } from "./scratchpad"
 import { WebFetchTool } from "./webfetch"
 import { WriteTool } from "./write"
 import { InvalidTool } from "./invalid"
@@ -112,6 +114,8 @@ export namespace ToolRegistry {
       TaskTool,
       WebFetchTool,
       TodoWriteTool,
+      MemoryTool,
+      ScratchpadTool,
       // TodoReadTool,
       WebSearchTool,
       CodeSearchTool,
